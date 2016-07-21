@@ -33,6 +33,37 @@ a {
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
+  
+  
+  .rowcorner {
+  width: 30px;
+  height: 20px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  opacity: .7;
+}
+
+.container {
+	background-image: url(../ricepaper.png);
+	border-left: 1px solid #336699;
+	border-right: 1px solid #336699;
+	/*width: 85%;*/
+}
+
+.title-job {
+	color: #336699;
+}
+
+.footer {
+  height: 100px;
+  padding-top: 15px;
+  border-top: 1px solid #CCCCCC;
+  background-color: #006699;
+  color: #FFCC66;
+  text-align: center;
+}
+
 
 @media screen and (min-width: 64em) {
   .btn {
