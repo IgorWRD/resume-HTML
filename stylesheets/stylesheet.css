@@ -45,14 +45,15 @@ a {
 }
 
 .container {
-	background-image: url(../ricepaper.png);
-	border-left: 1px solid #336699;
-	border-right: 1px solid #336699;
-	/*width: 85%;*/
+ background-image: url(../ricepaper.png);
+ border-left: 1px solid #336699;
+ border-right: 1px solid #336699;
+ width: 85%;
+ margin: 0 auto;
 }
 
 .title-job {
-	color: #336699;
+ color: #336699;
 }
 
 .footer {
