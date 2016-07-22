@@ -8,6 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/main-style.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/github-light.css" media="screen">
   </head>
@@ -16,7 +17,7 @@
 	    <div class="header">
 				<a href="#"><img class="rowcorner" src="img/arrows-top.png" alt="arrows-top"></a>
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12 wow bounceInDown" data-wow-duration="3s" data-wow-delay="2s">
 						<h3>Игорь Коваленко</h3>
 						<address>
 							год рождения – 1970<br>
@@ -28,12 +29,12 @@
 				</div>
 			</div>
 
-		<div class="page-header">
+		<div class="page-header wow zoomIn" data-wow-duration="3s">
 			<h1>Верстальщик-WEB (HTML/CSS/JavaScript)</h1>
 		</div>
 
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12 wow bounceInUp" data-wow-duration="2s">
 			<h3 class="title-job">ЦЕЛЬ</h3>
 			<p>Моя цель найти <strong>команду</strong> и свое <strong>место</strong> в этой команде, где смогу раскрыть и совершенствовать свои навыки на должности <strong>верстальщика</strong>. <br>
 				Есть базовые знания <strong>HTML/CSS</strong>, сейчас изучаю <strong>JavaScript</strong>. Опыта в IT не много, поэтому возможен вариант на должности <strong>помошника верстальщика</strong>, или <strong>стажировки</strong> на ваших условиях, с дальнейшей перспективой длительной работы в вашей компании. <br>
@@ -43,7 +44,7 @@
 	</div>
 
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12 wow lightSpeedIn" data-wow-duration="1s">
 			<h3 class="title-job">НАВЫКИ</h3>
 			<ul>
 				<li>Верстка статичных сайтов (HTML/CSS)</li>
@@ -60,7 +61,7 @@
 	</div>
 
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12 wow zoomInUp" data-wow-duration="2s">
 			<h3 class="title-job">НАВЫКИ ТЕХНИЧЕСКИЕ</h3>
 			<ul>
 				<li>HTML</li>
@@ -87,13 +88,12 @@
 	</div>
 
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12 wow slideInRight" data-wow-duration="3s">
 			<h3 class="title-job">ПРИМЕРЫ РАБОТ</h3>
 			<ul>
 				<li><a href="http://garbuzart.com/" target="_blank">Персональный сайт художника Володимира Гарбуза</a> ( <em>Joomla+CSS</em> )</li>
 				<li><a href="http://les.infokuznya.com/" target="_blank">Сайт по обучению компьютерной графики</a> ( <em>Joomla</em> )</li>
 				<li><a href="http://dtp.infokuznya.com/" target="_blank">Услуги верстки и допечатной подготовки</a> ( <em>HTML+CSS+Bootstrap</em> )</li>
-				<li><a href="http://hairtop.com.ua/" target="_blank">HairTop&trade; ТРЕНАЖЁР ВОЛОС</a> ( <em>HTML+CSS+JS</em> )</li>
 				<li><a href="http://live-dance-studio.club" target="_blank">Студия тенцев — Кипр</a> ( <em>HTML+CSS+Bootstrap</em> )</li>
 				<br>
 
@@ -113,7 +113,7 @@
 	</div>
 
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12 wow slideInLeft" data-wow-duration="2s">
 			<h3 class="title-job">ОПЫТ РАБОТЫ</h3>
 			<h5>1994 – 2012</h5>
 			<h4><strong>Полиграфия (различные типографии, не IT)</strong></h4>
@@ -143,5 +143,11 @@
 <footer class="footer">
 	<p><i class="fa fa-exclamation-triangle"></i> буду рад любым предложениям <a href="mailto:igorwrd@gmail.com" ><i class="fa fa-envelope fa-lg"></i></a></p>
 </footer>
+
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+
   </body>
 </html>

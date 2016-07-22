@@ -2,8 +2,8 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71;
-  background-image: url(../img/bg-body.jpg);
+  color: #777;
+  /*background-image: url(../img/bg-body.jpg);*/
 }
 
 a {
@@ -20,21 +20,7 @@ a {
   right: 20px;
   bottom: 20px;
   opacity: .7;
-}
-
-.container {
-   background-image: url(../img/ricepaper.png);
-   border-left: 1px solid #336699;
-   border-right: 1px solid #336699;
-   width: 85%;
-   margin: 0 auto;
-   padding: 0 20px;
-}
-
-.header {
-  width: 85%;
-  margin: 0 auto;
-  padding: 4px 20px;
+  z-index: 999;
 }
 
 .title-job {
